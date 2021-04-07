@@ -11,7 +11,6 @@
 </head>
 <body>
 <article>
-    <h1><a href="/post"> My First Post</a></h1>
     <?= $post; ?>
 </article>
 
