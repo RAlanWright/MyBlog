@@ -11,9 +11,9 @@
 
 
 <body>
-    <header>
-        @yield('banner')
-    </header>
-
-    @yield('content')
+{{--    <header>--}}
+{{--        @yield('banner')--}}
+{{--    </header>--}}
+    {{ $slot }}
+{{--    @yield('content')--}}
 </body>
