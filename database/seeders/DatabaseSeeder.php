@@ -43,8 +43,8 @@ class DatabaseSeeder extends Seeder
             'category_id' => $personal->id,
             'title' => 'My Personal Post',
             'slug' => 'my-personal-post',
-            'excerpt' => 'Lorem ipsum dolar sit amet.',
-            'body' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus, torquent odio ornare congue laoreet porttitor interdum. Nisl tortor pharetra risus metus fames phasellus aptent vel augue, semper sodales sagittis cubilia curabitur ante primis quam egestas pellentesque, suscipit blandit faucibus aliquam nulla accumsan lectus at. Tellus dictumst sed morbi nam curae mus mauris arcu, praesent himenaeos rutrum in fermentum ac. Bibendum velit iaculis condimentum auctor ad sociosqu netus massa montes, cum ultrices aliquet ridiculus lacus convallis magna id, cras pulvinar commodo donec mattis tempor erat nisi. Vivamus varius non natoque etiam quisque, sociis eu neque duis imperdiet, dui sollicitudin lobortis turpis.'
+            'excerpt' => '<p>Lorem ipsum dolar sit amet.',
+            'body' => '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus, torquent odio ornare congue laoreet porttitor interdum. Nisl tortor pharetra risus metus fames phasellus aptent vel augue, semper sodales sagittis cubilia curabitur ante primis quam egestas pellentesque, suscipit blandit faucibus aliquam nulla accumsan lectus at. Tellus dictumst sed morbi nam curae mus mauris arcu, praesent himenaeos rutrum in fermentum ac. Bibendum velit iaculis condimentum auctor ad sociosqu netus massa montes, cum ultrices aliquet ridiculus lacus convallis magna id, cras pulvinar commodo donec mattis tempor erat nisi. Vivamus varius non natoque etiam quisque, sociis eu neque duis imperdiet, dui sollicitudin lobortis turpis.</p>'
         ]);
 
         Post::create([
@@ -53,7 +53,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'My Family Post',
             'slug' => 'my-family-post',
             'excerpt' => 'Lorem ipsum dolar sit amet.',
-            'body' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus, torquent odio ornare congue laoreet porttitor interdum. Nisl tortor pharetra risus metus fames phasellus aptent vel augue, semper sodales sagittis cubilia curabitur ante primis quam egestas pellentesque, suscipit blandit faucibus aliquam nulla accumsan lectus at. Tellus dictumst sed morbi nam curae mus mauris arcu, praesent himenaeos rutrum in fermentum ac. Bibendum velit iaculis condimentum auctor ad sociosqu netus massa montes, cum ultrices aliquet ridiculus lacus convallis magna id, cras pulvinar commodo donec mattis tempor erat nisi. Vivamus varius non natoque etiam quisque, sociis eu neque duis imperdiet, dui sollicitudin lobortis turpis.'
+            'body' => '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus, torquent odio ornare congue laoreet porttitor interdum. Nisl tortor pharetra risus metus fames phasellus aptent vel augue, semper sodales sagittis cubilia curabitur ante primis quam egestas pellentesque, suscipit blandit faucibus aliquam nulla accumsan lectus at. Tellus dictumst sed morbi nam curae mus mauris arcu, praesent himenaeos rutrum in fermentum ac. Bibendum velit iaculis condimentum auctor ad sociosqu netus massa montes, cum ultrices aliquet ridiculus lacus convallis magna id, cras pulvinar commodo donec mattis tempor erat nisi. Vivamus varius non natoque etiam quisque, sociis eu neque duis imperdiet, dui sollicitudin lobortis turpis.</p>'
         ]);
 
         Post::create([
@@ -62,7 +62,7 @@ class DatabaseSeeder extends Seeder
             'title' => 'My Work Post',
             'slug' => 'my-work-post',
             'excerpt' => 'Lorem ipsum dolar sit amet.',
-            'body' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit tempus, torquent odio ornare congue laoreet porttitor interdum. Nisl tortor pharetra risus metus fames phasellus aptent vel augue, semper sodales sagittis cubilia curabitur ante primis quam egestas pellentesque, suscipit blandit faucibus aliquam nulla accumsan lectus at. Tellus dictumst sed morbi nam curae mus mauris arcu, praesent himenaeos rutrum in fermentum ac. Bibendum velit iaculis condimentum auctor ad sociosqu netus massa montes, cum ultrices aliquet ridiculus lacus convallis magna id, cras pulvinar commodo donec mattis tempor erat nisi. Vivamus varius non natoque etiam quisque, sociis eu neque duis imperdiet, dui sollicitudin lobortis turpis.'
+            'body' => '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus, torquent odio ornare congue laoreet porttitor interdum. Nisl tortor pharetra risus metus fames phasellus aptent vel augue, semper sodales sagittis cubilia curabitur ante primis quam egestas pellentesque, suscipit blandit faucibus aliquam nulla accumsan lectus at. Tellus dictumst sed morbi nam curae mus mauris arcu, praesent himenaeos rutrum in fermentum ac. Bibendum velit iaculis condimentum auctor ad sociosqu netus massa montes, cum ultrices aliquet ridiculus lacus convallis magna id, cras pulvinar commodo donec mattis tempor erat nisi. Vivamus varius non natoque etiam quisque, sociis eu neque duis imperdiet, dui sollicitudin lobortis turpis.</p>'
         ]);
 
     }
