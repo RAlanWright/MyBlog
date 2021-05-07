@@ -11,6 +11,8 @@ class Post extends Model
 
     protected $guarded = [];
 
+    protected $with = ['category', 'author']; // Eager Load by default to prevent N + 1 database querying
+
     public function category()
     {
         return $this->belongsTo(Category::class);
